@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vigenère</title>
+    <script src="./functions.js"></script>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="" method="get">
+        <label for="">Chave da decodificação</label>
+        <textarea name="key" id="key" cols="30" rows="10"></textarea>
+        <label for="">Texto para decodificar</label>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        <button type="submit" onclick="main()">Decodificar</button>
+
+        <textarea name="textDecoded" id="textDecoded" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
